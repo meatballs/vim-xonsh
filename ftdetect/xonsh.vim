@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.xsh setfiletype xonsh
+autocmd BufNewFile,BufRead *.xsh,*.xonshrc setfiletype xonsh
