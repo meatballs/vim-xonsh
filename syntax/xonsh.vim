@@ -4,7 +4,7 @@ endif
 
 runtime! syntax/python.vim syntax/python/*.vim
 
-syntax match xonshEnvironmentVariable "\v\$[^\s\[\(]"
+syntax match xonshEnvironmentVariable "\v\$[^\s\[\(]+"
 
 highlight default link xonshEnvironmentVariable Constant
 
