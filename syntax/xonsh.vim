@@ -4,7 +4,7 @@ endif
 
 runtime! syntax/python.vim syntax/python/*.vim
 
-syntax match xonshEnvironmentVariable "\v\$[A-Za-z_][A-Za-z0-9_]*"
+syntax match xonshEnvironmentVariable "\v\$\h\w*"
 
 highlight default link xonshEnvironmentVariable Constant
 
